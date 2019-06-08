@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+html,
+body,
+#___gatsby, /* Gatsby wrapper */ 
+div[role='group'][tabindex] /* Reach router wrapper */ {
+  height: 100%;
+}
