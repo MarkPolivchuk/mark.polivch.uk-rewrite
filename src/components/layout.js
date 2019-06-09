@@ -24,9 +24,9 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="container h-full bg-purple-500 mx-auto px-4 flex flex-col">
+      <div className="container h-full mx-auto px-4 flex flex-col">
         <Header />
-        <div className="flex-grow my-4 bg-red-500">
+        <div className="flex-grow my-4">
           <main>{children}</main>
         </div>
         <Footer />
